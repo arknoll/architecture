@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function architecture_theme($existing, $type, $theme, $path) {
+  return array(
+    'architecture_report' => array(
+      'variables' => array(
+        'content_types' => NULL,
+        'fields' => NULL,
+        'roles' => NULL,
+        'taxonomies' => NULL,
+        'views' => NULL,
+      ),
+      'template' => 'architecture-report',
+    ),
+  );
+}

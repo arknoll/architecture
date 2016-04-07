@@ -1,0 +1,25 @@
+<h2>User Roles</h2>
+<ul>
+  {% for role in roles %}
+    <li>{{ role }}</li>
+  {% endfor %}
+</ul>
+<h2>Taxonomy Vocabulary</h2>
+<ul>
+  {% for taxonomy in taxonomies %}
+    <li>{{ taxonomy }}</li>
+  {% endfor %}
+</ul>
+<h2>Content Types</h2>
+<ul>
+  {% for type in content_types %}
+    <li>{{ type }}</li>
+  {% endfor %}
+</ul>
+<h2>Views</h2>
+<ul>
+  {% for view in views %}
+    <li>{{ view }}</li>
+  {% endfor %}
+</ul>
+{{ fields }}

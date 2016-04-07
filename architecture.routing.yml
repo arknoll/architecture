@@ -1,0 +1,8 @@
+architecture.report:
+  path: /admin/reports/architecture
+  defaults:
+    _controller: '\Drupal\architecture\Controller\ArchitectureController::reports'
+    _title: 'Architecture'
+    _admin_route: TRUE
+  requirements:
+    _permission: use architecture
